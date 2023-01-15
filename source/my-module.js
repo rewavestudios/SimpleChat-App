@@ -1,1 +1,1 @@
-exports.myText = "hello from module"
+export const myText = "hello from module"

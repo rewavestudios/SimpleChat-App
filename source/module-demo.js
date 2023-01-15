@@ -1,3 +1,3 @@
-var myModule = require('my-module')
+import myModule from 'my-module'
 
-console.log(myModule);
+console.log(myModule)
