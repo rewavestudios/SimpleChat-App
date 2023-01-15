@@ -15,6 +15,7 @@ app.get('/messages', (req, res)=>{
 })
 
 app.post('/messages', (req, res)=>{
+    messages.push(req.body)
     res.sendStatus(200)
 })
 
