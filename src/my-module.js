@@ -1,0 +1,1 @@
+export const myText = "hello from module"
